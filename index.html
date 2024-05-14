@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=700, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tienda</title>
+  </head>
+  <body>
+    <header id="inicio" class="bg-primary">
+      <div class="logo"><img src="images/logo.png" alt="logo" width="80" height="80" /></div>
+      <nav class="menu bg-secundary color-primary">
+        <ul>
+          <li><a href="/#inicio">Inicio</a></li>
+          <li><a href="/#quienesSomos">Quienes somos</a></li>
+          <li><a href="/#productos">Productos</a></li>
+          <li><a href="/#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="quienesSomos">
+        <h2>Distribuidora Olaf</h2>
+        <div>Somos una empresa distribuidora de bebidas</div>
+        <img src="images/logo.png" alt="nuestra empresa" width="200px" height="200px" />
+      </section>
+      <hr class="rounded" />
+      <section id="productos" class="contentProducts">
+        <div class="card bg-primary">
+          <div><img src="images/beer.png" alt="Beer" width="100px" height="100px" /></div>
+          <div>Cerveza</div>
+          <div>Cerveza rubia lupulada</div>
+        </div>
+        <div class="card bg-primary">
+          <div><img src="images/Coke.jpg" alt="Coke" width="100px" height="100px" /></div>
+          <div>Coca cola</div>
+          <div>Gaseasa más famosa del mundo</div>
+        </div>
+        <div class="card bg-primary">
+          <div>
+            <img src="images/GreenBottle.jpg" alt="Green Beer" width="100px" height="100px" />
+          </div>
+          <div>Cerveza al estilo grosh</div>
+          <div>Rubia comercial</div>
+        </div>
+        <div class="card bg-primary">
+          <div>
+            <img src="images/LongIsland.jpg" alt="LongIsland" width="100px" height="100px" />
+          </div>
+          <div>Trago largo</div>
+          <div>Trago largo</div>
+        </div>
+        <div class="card bg-primary">
+          <div>Imagen</div>
+          <div>Titulo</div>
+          <div>Descripción</div>
+        </div>
+        <div class="card bg-primary">
+          <div>Imagen</div>
+          <div>Titulo</div>
+          <div>Descripción</div>
+        </div>
+      </section>
+      <hr class="rounded" />
+      <section id="contacto" class="contentContact">
+        <div class="card bg-primary">
+          <h2>Contacto</h2>
+          <!-- acá tenés que poner tu email en donde dice your@email.com -->
+          <form action="https://formsubmit.co/mauriciomussis@gmail.com" method="POST" class="contactForm">
+            <div class="input">
+              <label for="name">Nombre</label>
+              <input type="text" name="name" required />
+            </div>
+            <div class="input">
+              <label for="email">Ingrese tu email</label>
+              <input type="email" name="email" required />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="skewed bg-primary">
+          <div class="contentWhatsApp">
+            <div class="whatsAppCircle">
+              <a href="https://api.whatsapp.com/send?phone=549">
+                <!-- acá tenés que cambiar el logo por uno de whatsapp -->
+                <img src="images/logo.png" alt="logo" width="80" height="80"
+              /></a>
+            </div>
+          </div>
+          <ul>
+            <li>
+              Email:
+              <!-- tenés que cambiar y poner tu e-mail -->
+              <a href="mailto:correo@gmail.com" target="_blank" class="color-secundary"
+                >correo@gmail.com</a
+              >
+            </li>
+            <li>
+              Telefono:
+              <!-- tenés que poner tu telefono -->
+              <a href="tel:+5491144445555" target="_blank" class="color-secundary"
+                >+54 9 11 4444 - 5555</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
